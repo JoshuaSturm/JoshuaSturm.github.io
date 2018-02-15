@@ -208,15 +208,35 @@
 		</section>
 		<!-- end Print Social Links -->
 		{% endif %}
-	<script type="text/javascript">
-	GitHubActivity.feed({
-	username: "JoshuaSturm",
-	//repository: "your-repo", // optional
-	selector: "#feed",
-	limit: 20 // optional
-});
+
+	
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js">
 	</script>
-	<div id="feed"></div>
+	<script type="text/javascript" src="github-activity/github-activity-0.1.4.min.js"></script>
+	<div id="github" class="content-section-a">
+    	<div class="container">
+          	<div class="row" >
+			 	<div class="col-md-6 col-md-offset-3 text-center wrap_title ">
+					<h2>Github</h2>
+			 	</div>
+				<div class="col-lg-8 col-lg-offset-2 centered">
+        			<div id="feed" style="width: 100%; text-align: left;"></div>
+      			</div>
+      			
+      			
+      			
+      		</div>      	
+      	</div>
+	</div>
+			<script>
+		GitHubActivity.feed({
+    		username: "JoshuaSturm",
+    		//repository: "your-repo", // optional
+    		selector: "#feed",
+    		limit: 6 // optional
+		});
+	</script>
+
 	</div>
 
 </body>
