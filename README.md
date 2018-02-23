@@ -1,1 +1,0 @@
-# JoshuaSturm.github.io
