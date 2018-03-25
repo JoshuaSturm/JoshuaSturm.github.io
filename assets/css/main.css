@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
-@import url("font-awesome.min.css");
+@import url("assets/css/font-awesome.min.css");
 
 /*
 	Astral by HTML5 UP
@@ -1049,9 +1049,9 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "fontawesome";
+			font-family: "Font Awesome 5 Free";
 			font-style: normal;
-			font-weight: normal;
+			font-weight: 900;
 			text-transform: none !important;
 		}
 
