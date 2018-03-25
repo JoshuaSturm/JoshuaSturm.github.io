@@ -1050,6 +1050,11 @@
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
 			font-family: "Font Awesome 5 Free";
+			/* new */
+			display: inline-block;
+			font-variant: normal;
+			text-rendering: auto;
+			/* */
 			font-style: normal;
 			font-weight: 900;
 			text-transform: none !important;
