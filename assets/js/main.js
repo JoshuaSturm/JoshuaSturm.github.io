@@ -40,9 +40,6 @@
 		$('#preloader').delay(200).fadeOut('slow');
 		$('body').delay(350).css({'overflow':'visible'});
 
-	$window.FontAwesomeConfig = {
-    	searchPseudoElements: true
-   	}
 		skel
 			.breakpoints({
 				desktop: '(min-width: 737px)',
