@@ -1049,9 +1049,9 @@
 		.icon:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: "Font Awesome 5 Free";
+			font-family: "fontawesome";
 			font-style: normal;
-			font-weight: 900;
+			font-weight: normal;
 			text-transform: none !important;
 		}
 
