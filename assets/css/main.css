@@ -1056,7 +1056,7 @@
 			text-rendering: auto;
 			/* */
 			font-style: normal;
-			font-weight: 900;
+			font-weight: normal;
 			text-transform: none !important;
 		}
 
@@ -1077,6 +1077,8 @@
 
 		#nav a.icon:before {
 			padding-right: 0;
+			font-family: "Font Awesome 5 Free";
+			display: inline-block;
 		}
 
 /* Panels */
