@@ -1056,6 +1056,20 @@
 			text-rendering: auto;
 			/* */
 			font-style: normal;
+			font-weight: 900;
+			text-transform: none !important;
+		}
+
+		.iconb:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			font-family: "Font Awesome 5 Brands";
+			/* new */
+			display: inline-block;
+			font-variant: normal;
+			text-rendering: auto;
+			/* */
+			font-style: normal;
 			font-weight: 400;
 			text-transform: none !important;
 		}
@@ -1080,12 +1094,23 @@
 			font-family: "Font Awesome 5 Free";
 			display: inline-block;
 			font-style: normal;
-			font-weight: 400;
+			font-weight: 900;
   			font-variant: normal;
  			text-rendering: auto;
   			-webkit-font-smoothing: antialiased;
 		}
 
+
+		#nav a.iconb:before {
+			padding-right: 0;
+			font-family: "Font Awesome 5 Brands";
+			display: inline-block;
+			font-style: normal;
+			font-weight: 400;
+  			font-variant: normal;
+ 			text-rendering: auto;
+  			-webkit-font-smoothing: antialiased;
+		}
 /* Panels */
 
 	#main {
