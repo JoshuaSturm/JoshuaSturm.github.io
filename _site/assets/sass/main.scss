@@ -3,7 +3,7 @@
 @import 'libs/mixins';
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic');
-@import url('font-awesome.min.css');
+@import url('fontawesome.min.css');
 
 /*
 	Astral by HTML5 UP
@@ -316,7 +316,7 @@
 		&:before {
 			-moz-osx-font-smoothing: grayscale;
 			-webkit-font-smoothing: antialiased;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 			font-style: normal;
 			font-weight: normal;
 			text-transform: none !important;
